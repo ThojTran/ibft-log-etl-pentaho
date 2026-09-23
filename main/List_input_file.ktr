@@ -9,11 +9,6 @@
     <trans_status>0</trans_status>
     <directory>/</directory>
     <parameters>
-      <parameter>
-        <name>HOME_IBFT</name>
-        <default_value>D:\data-integration\samples\Practice</default_value>
-        <description/>
-      </parameter>
     </parameters>
     <log>
       <trans-log-table>
@@ -541,42 +536,55 @@
     <fields>
       <field>
         <name>filename</name>
+        <rename/>
       </field>
       <field>
         <name>short_filename</name>
+        <rename/>
       </field>
       <field>
         <name>path</name>
+        <rename/>
       </field>
       <field>
         <name>type</name>
+        <rename/>
       </field>
       <field>
         <name>exists</name>
+        <rename/>
       </field>
       <field>
         <name>ishidden</name>
+        <rename/>
       </field>
       <field>
         <name>isreadable</name>
+        <rename/>
       </field>
       <field>
         <name>iswriteable</name>
+        <rename/>
       </field>
       <field>
         <name>lastmodifiedtime</name>
+        <rename/>
       </field>
       <field>
         <name>size</name>
+        <rename/>
       </field>
       <field>
         <name>extension</name>
+        <rename/>
       </field>
       <field>
         <name>uri</name>
+        <rename/>
       </field>
       <field>
         <name>rooturi</name>
+        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
       <remove>

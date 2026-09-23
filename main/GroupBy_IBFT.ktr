@@ -9,11 +9,6 @@
     <trans_status>0</trans_status>
     <directory>/</directory>
     <parameters>
-      <parameter>
-        <name>value</name>
-        <default_value>D:\data-integration\samples\Practice\bai_tap_1_doc_xml\file_chi_tiet_field.csv</default_value>
-        <description/>
-      </parameter>
     </parameters>
     <log>
       <trans-log-table>

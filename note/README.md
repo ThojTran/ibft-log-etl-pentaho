@@ -1,5 +1,10 @@
 # IBFT Log ETL - hướng dẫn cài đặt và chạy project
-
+Trước khi bắt đầu chạy mọi người cần tạo những folder sau: 
+  - archive: file sẽ di chuyển vào folder khi được xử lý xong 
+  - data: chứa file log đầu vào
+  - output
+    + detail: file kết quả detail dưới dạng xlsx
+    + summary: file kết quả summary dưới dạng xlsx
 Project này dùng Pentaho Data Integration (PDI/Kettle) để đọc file log IBFT chứa XML, tách và chuẩn hóa các message request/response, sau đó lưu dữ liệu vào PostgreSQL và xuất hai file Excel: detail và summary.
 
 - `detail`: mỗi dòng là một message/request trong log.
