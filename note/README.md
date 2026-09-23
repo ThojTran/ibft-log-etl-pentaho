@@ -5,10 +5,7 @@ Trước khi bắt đầu chạy mọi người cần tạo những folder sau:
   - output
     + detail: file kết quả detail dưới dạng xlsx
     + summary: file kết quả summary dưới dạng xlsx
-<<<<<<< HEAD
-=======
-
->>>>>>> 995f68a5108a3cdfd7c3854aa3f7c85331e302f6
+    + 
 Project này dùng Pentaho Data Integration (PDI/Kettle) để đọc file log IBFT chứa XML, tách và chuẩn hóa các message request/response, sau đó lưu dữ liệu vào PostgreSQL và xuất hai file Excel: detail và summary.
 
 - `detail`: mỗi dòng là một message/request trong log.
